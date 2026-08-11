@@ -61,10 +61,11 @@ a{color:inherit;}
   display:flex; justify-content:center; flex-wrap:wrap;
   border:2px solid var(--ink);
   box-shadow:inset 0 0 0 1px rgba(33,29,22,0.2);
+  background:var(--ink);
 }
 .tab-bar a{
   font-family:'Special Elite', monospace; font-size:11.5px; text-transform:uppercase;
-  letter-spacing:0.09em; text-decoration:none; color:var(--ink);
+  letter-spacing:0.09em; text-decoration:none; color:var(--paper);
   padding:10px 20px; border-left:1px solid var(--ink);
   transition:background 0.2s ease, color 0.2s ease;
 }
