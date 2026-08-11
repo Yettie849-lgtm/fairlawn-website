@@ -100,6 +100,8 @@ a{color:inherit;}
 .medallion:last-of-type{transform:rotate(2deg);}
 .medallion .thread-icon{width:44%; margin-bottom:6px; opacity:0.75;}
 .medallion .cap{font-family:'Special Elite'; font-size:10px; letter-spacing:0.05em; text-transform:uppercase; line-height:1.3;}
+.medallion.medallion-logo{padding:0; overflow:hidden;}
+.medallion.medallion-logo .thread-icon{width:100%; height:100%; margin-bottom:0; opacity:1; object-fit:cover; border-radius:50%;}
 .title-block{
   text-align:center; padding:10px 20px;
   border:2px solid var(--ink);
