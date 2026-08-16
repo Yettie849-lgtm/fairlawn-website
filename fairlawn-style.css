@@ -120,7 +120,7 @@ a{color:inherit;}
 .title-block .sub{font-family:'UnifrakturCook', serif; font-size:20px; margin-top:6px; color:var(--wine);}
 
 /* ---------- LAYOUT: 3-col (home) ---------- */
-.layout{display:grid; grid-template-columns:1fr 1.9fr 1fr; gap:14px; margin-top:6px;}
+.layout{display:grid; grid-template-columns:1fr 1.9fr 1fr; gap:14px; margin-top:6px; align-items:start;}
 .col{
   padding:20px 20px;
   border:3px double var(--ink);
@@ -129,7 +129,11 @@ a{color:inherit;}
 }
 
 /* ---------- LAYOUT: 2-col (article pages) ---------- */
-.page-layout{display:grid; grid-template-columns:2fr 1fr; gap:14px; margin-top:6px;}
+.page-layout{display:grid; grid-template-columns:2fr 1fr; gap:14px; margin-top:6px; align-items:start;}
+
+/* single-column variant: used when a page has no genuine second column of content */
+.page-layout.single{display:block;}
+.page-layout.single .col{max-width:760px; margin:0 auto;}
 .page-hero{margin-bottom:16px; border:2px solid var(--ink); overflow:hidden; box-shadow:inset 0 0 0 1px rgba(33,29,22,0.3);}
 .page-hero img{width:100%; aspect-ratio:16/7; object-fit:cover; display:block; filter:grayscale(1) contrast(1.25) brightness(0.92) sepia(0.16);}
 .article-head{text-align:center; margin-bottom:18px;}
