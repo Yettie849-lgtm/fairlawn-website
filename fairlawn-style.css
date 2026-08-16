@@ -251,6 +251,11 @@ a{color:inherit;}
 .catalog-embed{margin:10px 0 16px; border:2px solid var(--ink); box-shadow:inset 0 0 0 1px rgba(33,29,22,0.3);}
 .catalog-embed iframe{width:100%; height:700px; border:0; display:block;}
 
+.faq-item{padding:12px 0; border-bottom:1px dotted rgba(33,29,22,0.4);}
+.faq-item:last-child{border-bottom:none;}
+.faq-item .q{font-family:'Rye'; font-size:16px; margin-bottom:6px;}
+.faq-item .a{font-size:14px; line-height:1.6;}
+
 footer.masthead-footer{
   text-align:center; padding:14px 0 4px; font-family:'Special Elite'; font-size:10px;
   letter-spacing:0.05em; text-transform:uppercase; color:#4a4438;
